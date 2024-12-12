@@ -1,16 +1,14 @@
-package com.hellrider.pruebas.varios;
+package com.hellrider.pruebas;
 
-import com.hellrider.pruebas.MovieCatalog;
+import org.springframework.core.annotation.Order;
+import org.springframework.stereotype.Component;
 
+@Component
 public class ComedyMovieCatalog implements MovieCatalog {
 
     @Override
     public String getMovieCatalog() {
-        return "";
+        return "Comedy";
     }
 
-    @Override
-    public String getMovieCatalog2() {
-        return "";
-    }
 }

@@ -1,4 +1,9 @@
 package com.hellrider.pruebas.notebooklm;
 
-public class CatalogoPeliculas {
+import java.util.List;
+
+public interface CatalogoPeliculas {
+
+    List<Pelicula> obtenerRecomendaciones(String genero);
+
 }

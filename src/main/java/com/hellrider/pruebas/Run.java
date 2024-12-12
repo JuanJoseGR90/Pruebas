@@ -1,7 +1,10 @@
 package com.hellrider.pruebas;
 
+import com.hellrider.pruebas.notebooklm.ServicioRecomendacion;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.io.IOException;
 
@@ -9,7 +12,12 @@ import java.io.IOException;
 public class Run {
 
     public static void main(String[] args) throws IOException {
-        SpringApplication.run(Run.class, args);
+
+        ApplicationContext applicationContext = SpringApplication.run(Run.class, args);
+
+        ServicioRecomendacion servicioRecomendacion = applicationContext.getBean(ServicioRecomendacion.class);
+
+        servicioRecomendacion.mostrarRecomendaciones("Accion");
     }
 
 }

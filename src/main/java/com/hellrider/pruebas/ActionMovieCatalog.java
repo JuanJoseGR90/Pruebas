@@ -1,4 +1,14 @@
 package com.hellrider.pruebas;
 
-public class ActionMovieCatalog {
+import org.springframework.core.annotation.Order;
+import org.springframework.stereotype.Component;
+
+@Component
+public class ActionMovieCatalog implements MovieCatalog {
+
+    @Override
+    public String getMovieCatalog() {
+        return "ActionMovieCatalog";
+    }
+
 }
