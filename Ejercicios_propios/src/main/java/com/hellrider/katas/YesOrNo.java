@@ -1,4 +1,4 @@
-package com.hellrider;
+package com.hellrider.katas;
 
 public class YesOrNo {
 

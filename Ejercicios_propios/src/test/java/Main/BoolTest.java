@@ -1,6 +1,6 @@
 package Main;
 
-import com.hellrider.YesOrNo;
+import com.hellrider.katas.YesOrNo;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

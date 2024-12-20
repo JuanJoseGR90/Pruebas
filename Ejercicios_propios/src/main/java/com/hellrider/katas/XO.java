@@ -1,4 +1,4 @@
-package com.hellrider;
+package com.hellrider.katas;
 
 /**
  * Comprueba si una cadena tiene la misma cantidad de "x" y "o".

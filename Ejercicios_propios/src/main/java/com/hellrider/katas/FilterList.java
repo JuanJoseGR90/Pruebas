@@ -1,4 +1,4 @@
-package com.hellrider;
+package com.hellrider.katas;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,6 @@
 package Main;
 
-import com.hellrider.Goals;
+import com.hellrider.katas.Goals;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 

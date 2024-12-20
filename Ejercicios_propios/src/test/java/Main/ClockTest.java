@@ -1,6 +1,6 @@
 package Main;
 
-import com.hellrider.Clock;
+import com.hellrider.katas.Clock;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

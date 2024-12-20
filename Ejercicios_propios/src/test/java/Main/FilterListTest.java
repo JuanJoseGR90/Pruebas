@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-import static com.hellrider.FilterList.filterList;
+import static com.hellrider.katas.FilterList.filterList;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 

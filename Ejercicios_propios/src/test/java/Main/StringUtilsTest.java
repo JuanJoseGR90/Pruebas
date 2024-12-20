@@ -1,6 +1,6 @@
 package Main;
 
-import com.hellrider.StringUtils;
+import com.hellrider.katas.StringUtils;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

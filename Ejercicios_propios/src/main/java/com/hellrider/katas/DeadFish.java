@@ -1,4 +1,4 @@
-package com.hellrider;
+package com.hellrider.katas;
 
 /**
  * Crea un analizador para interpretar y ejecutar el lenguaje Deadfish.

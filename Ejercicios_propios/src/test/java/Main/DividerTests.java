@@ -2,7 +2,7 @@ package Main;
 
 import static org.junit.Assert.assertEquals;
 
-import com.hellrider.FindDivisor;
+import com.hellrider.katas.FindDivisor;
 import org.junit.Test;
 
 public class DividerTests {

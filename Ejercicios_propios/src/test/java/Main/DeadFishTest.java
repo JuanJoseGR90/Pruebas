@@ -1,6 +1,6 @@
 package Main;
 
-import com.hellrider.DeadFish;
+import com.hellrider.katas.DeadFish;
 
 import static org.junit.jupiter.api.Assertions.*;
 
